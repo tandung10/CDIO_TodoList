@@ -22,8 +22,8 @@
 
     <!-- styles css -->
     <link rel="stylesheet" href="./asstets/css/style.css" />
-    <link rel="stylesheet" href="./asstets/css/all_running_task.css" />
-    <title>TodoList</title>
+    <link rel="stylesheet" href="./asstets/css/taskpage.css" />
+    <title>All task</title>
   </head>
 
   <body>
@@ -54,19 +54,19 @@
       <ul class="navbar__links">
         <li class="navbar__link">
           <i class="fas fa-tachometer-alt"></i>
-          <a href="#">Home</a>
+          <a href="./index.html">Home</a>
         </li>
         <li class="navbar__link">
           <i class="fa-solid fa-list-check"></i>
-          <a href="#">All Tasks</a>
+          <a href="">All Tasks</a>
         </li>
         <li class="navbar__link">
           <i class="fa-solid fa-circle-check"></i>
-          <a href="#">Completed Tasks</a>
+          <a href="./completed_task.html">Completed Tasks</a>
         </li>
         <li class="navbar__link">
           <i class="fa-solid fa-hourglass-half"></i>
-          <a href="#">Running Tasks</a>
+          <a href="./running_task.html">Running Tasks</a>
         </li>
         <li class="navbar__link">
           <i class="fa-solid fa-circle-plus"></i>
@@ -74,7 +74,7 @@
         </li>
       </ul>
       <div class="running-task-block">
-        <div class="running-task-heading">Running Tasks</div>
+        <div class="running-task-heading">All Task</div>
         <div class="running-task-body">
           <div class="row">
             <div class="group-btn">
@@ -88,6 +88,14 @@
               </button>
               <button class="btn btn-priority">
                 <span>By priority</span>
+                <img
+                  src="./asstets/icons/filter-icon.svg"
+                  alt=""
+                  style="width: 11px; height: 14px"
+                />
+              </button>
+              <button class="btn btn-status">
+                <span>By status</span>
                 <img
                   src="./asstets/icons/filter-icon.svg"
                   alt=""
