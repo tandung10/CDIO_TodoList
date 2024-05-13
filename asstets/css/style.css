@@ -337,9 +337,3 @@ img {
   right: 20px;
   cursor: pointer;
 }
-
-/* ===== Create task */
-.create-task {
-  width: 70%;
-  position: relative;
-}
