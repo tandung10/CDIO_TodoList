@@ -341,4 +341,5 @@ img {
 /* ===== Create task */
 .create-task {
   width: 70%;
+  margin: 0 auto;
 }
