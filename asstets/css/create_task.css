@@ -1,14 +1,15 @@
 .main {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
+
 .create-task {
   position: relative;
-  width: 70%;
   margin-top: 50px;
-  padding-left: 60px;
+  width: 600px;
 }
+
 .task-title {
   display: flex;
   justify-content: center;
@@ -20,5 +21,46 @@
   color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
-  transform: translateX(60px);
+  margin-bottom: 20px;
+}
+
+.create-task_block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.create-task__input {
+  width: 300px;
+  padding: 20px 2px;
+}
+
+.create-task__input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-task__input input,
+.create-task__input textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.create-task__btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #83c5be;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.create-task__btn:hover {
+  background-color: #6baba8;
 }
